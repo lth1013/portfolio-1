@@ -70,12 +70,14 @@ nav ul li a{
     position:relative;
 }
 .work{
-display:relative;
+display: flex;
+flex-wrap: wrap;
+margin-top: 20px;
 }
 
 .textbox {
     position: absolute;
-    bottom: 20px;
+    bottom: 245px;
     /* right: 20px; */
     background-color: black;
     color: white;
@@ -94,10 +96,11 @@ display:relative;
     background-color: #d76899;
     width: 200px;
     margin: 10px 10px 10px -53px;
-    padding: 10px 21px 10px 50px;
+    padding: 10px 21px 10px 175px;
 }
 
 .list23 {
     display:flex;
     justify-content: space-around;
+    margin-bottom: 15px;
 }
