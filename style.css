@@ -3,7 +3,9 @@
     padding: 0;
     font-family: sans-serif;
 }
-
+.body{
+    background-color: #b0b0e7;
+}
 html{
     scroll-behavior: smooth;
 }
